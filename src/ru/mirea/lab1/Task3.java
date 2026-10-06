@@ -3,19 +3,13 @@ package ru.mirea.lab1;
 
 public class Task3 {
     public static void main(String[] args) {
-        int[] array = {10, 20, 30, 40, 50};
-
+        int[] a = {3, 7, 1, 9, 4, 6};
         int sum = 0;
-
-        for (int i = 0; i < array.length; i++) {
-            sum += array[i];
+        for (int i = 0; i < a.length; i++) {
+            sum += a[i];
         }
-
-        double average = (double) sum / array.length;
-
-        // Вывод результата на экран
-        System.out.println("Элементы массива" +  );
+        double avg = (double) sum / a.length;
         System.out.println("Сумма элементов: " + sum);
-        System.out.printf("Среднее арифметическое:", average);
+        System.out.printf("Среднее арифметическое: %.2f%n", avg);
     }
 }
