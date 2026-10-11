@@ -1,4 +1,6 @@
-package pr2.task03;
+package ru.mirea.lab2.task3;
+
+import ru.mirea.lab2.Point;
 
 public class Tester {
     private Circle[] circles;

@@ -1,4 +1,4 @@
-package pr2.task03;
+package ru.mirea.lab2;
 
 public class Point {
     private double x;
